@@ -55,3 +55,33 @@ export default function DetalhesScreen({navigation}) {
       );
     }
 
+    const styles = StyleSheet.create({
+      container: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems:"center",
+        padding: 15,
+      },
+      title: {
+        fontSize: 20,
+        fontWeight: "bold",
+        margimBottom: 20,
+      },
+      input: {
+        width: "100%",
+        padding: 20,
+        margimBottom: 15,
+        fontSize: 15,
+        borderColor: "#ccc"
+      },
+      text: {
+        fontSize: 16,
+        color: "#ccc",
+        margimBottom: 10,
+      },
+      buttonContainer: {
+        marginTop: 15,
+        with: "100%"
+      }
+    })
+
