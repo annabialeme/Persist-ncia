@@ -61,6 +61,7 @@ export default function DetalhesScreen({navigation}) {
         justifyContent: "center",
         alignItems:"center",
         padding: 15,
+        backgroundColor: "f5f5f5",
       },
       title: {
         fontSize: 20,
